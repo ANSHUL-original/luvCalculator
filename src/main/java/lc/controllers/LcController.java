@@ -19,9 +19,10 @@ public class LcController {
 
 	@RequestMapping("/")
 	public String home(@ModelAttribute("lcDto1") LcDto lcDto1,BindingResult result,HttpServletRequest req) {
-//		Cookie[] cookies=req.getCookies();
+		//this is for cookies method master
+//	it ba	Cookie[] cookies=req.getCookies();
 //		if(cookies==null)
-//		{
+//		{ 
 //			return "home";
 //		}
 //		for(Cookie c:cookies) {
